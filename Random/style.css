@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    /* width: 100%; */
+    background-image: linear-gradient(rgb(0, 162, 255),
+    rgb(255, 0, 0));
+   font-size: 35px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+input {
+    padding: 15px 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+
+}
+.greencolor {
+    background-image: linear-gradient(rgb(255, 255, 0),
+    rgb(0, 255, 38));
+    color: rgb(0, 0, 0);
+}
+.redcolor {
+    background-image: linear-gradient(rgb(255, 0, 0),
+    rgb(255, 0, 255));
+    color: #fff;
+}
+@media (max-width: 578px) {
+  body {
+    margin-top: 50px;
+  }
+    h1 {
+    font-size: 40px;
+  }
+}
